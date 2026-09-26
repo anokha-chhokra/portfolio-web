@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Set the theme attribute before first paint so there's no flash of
+      // the wrong theme. Keep the storage key in sync with
+      // src/context/ThemeContext.jsx.
+      (function () {
+        try {
+          var stored = localStorage.getItem('arbaj-portfolio-theme');
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches
+                ? 'light'
+                : 'dark';
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07131c" />
+    <meta name="author" content="Arbaj Ali" />
+    <meta
+      name="description"
+      content="Arbaj Ali — Java, Spring Boot, REST APIs, Microservices and backend engineering portfolio."
+    />
+    <!--
+      Once this is deployed, add back a <link rel="canonical"> and
+      og:url/twitter:url pointing at the real address — left out here since
+      this build isn't hosted anywhere yet.
+    -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Arbaj Ali — Backend Engineer" />
+    <meta
+      property="og:description"
+      content="Java, Spring Boot, REST APIs, Microservices and backend engineering portfolio."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Arbaj Ali — Backend Engineer" />
+    <meta
+      name="twitter:description"
+      content="Java, Spring Boot, REST APIs, Microservices and backend engineering portfolio."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Arbaj Ali — Backend Engineer</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

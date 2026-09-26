@@ -193,13 +193,29 @@ export const completedProjects = [
       'Refactored legacy codebases for maintainability and stability, cutting build failures by 30% and adding automated test coverage that reduced production issues.',
     tags: ['Refactoring', 'Testing', 'CI/CD'],
   },
+  {
+    title: 'Calorie Tracker',
+    context: 'Freelance',
+    description:
+      'Created a calorie-tracker app to check and track food habits and calorie intake over day, week and month.',
+    tags: ['No Database', 'React', 'Fitness'],
+  }
 ];
 
 // Deliberately empty — see CurrentProjectsSection.jsx for the placeholder
 // state this renders instead. Add entries here (same shape as
 // completedProjects, plus an optional `status` string) once there's real
 // in-progress work to show.
-export const currentProjects = [];
+export const currentProjects = [
+  {
+    title: 'commit() journaling app',
+    context: 'Freelance',
+    description:
+      'Creating a 8-bit styled gamified-journaling app that gives you points for tasks completed.',
+    tags: ['Self Improvement', 'React', 'Consistency'],
+    status: 'Structuring'
+  }
+];
 
 export const skillCategories = [
   { label: 'Programming Languages', items: ['Core Java', 'Python'] },

@@ -1,4 +1,4 @@
-// Content sourced from Arbaj Ali's resume (uploaded Sept 2026).
+// Content sourced from Arbaj Ali's resume (updated Oct 2026).
 // Kept as plain data so the components stay purely presentational.
 
 export const navLinks = [
@@ -17,12 +17,13 @@ export const contact = {
   title: 'Java Developer · Spring Boot Developer · Backend Engineer',
   email: 'arbajali.dev@gmail.com',
   phone: '+91 7278781198',
-  location: 'Kolkata, India',
+  location: 'Bengaluru, India',
   linkedin: 'https://linkedin.com/in/arbajali',
+  website: 'https://arbajali.vercel.app',
 };
 
 export const metrics = [
-  { value: '~4 yrs', label: 'experience stated in resume' },
+  { value: '4 yrs', label: 'of production backend experience' },
   { value: '35%', label: 'validation-time reduction' },
   { value: '30%', label: 'fewer build failures after refactor' },
   { value: '8.72', label: 'B.Tech DGPA' },
@@ -39,14 +40,14 @@ export const stackJson = {
 };
 
 export const aboutParagraphs = [
-  "Arbaj Ali is a backend-focused software engineer with about four years of experience across Java, Spring Boot, RESTful APIs, GenAI and microservices — including enterprise delivery at Cognizant Technology Solutions and independent freelance work since mid-2024.",
-  'The work centers on performance optimization, API management, and cloud-integrated backend solutions: taking a system apart, finding where it slows down or breaks under real traffic, and shipping something faster, safer or easier to maintain — with a growing interest in bringing GenAI tooling into that same backend toolbox.',
+  "Arbaj Ali is a backend engineer with 4 years of experience shipping production-ready Java and Spring Boot systems — from REST APIs and microservices to GenAI — at Cognizant Technology Solutions and as a freelance Java developer with Scanner Interior Pvt Ltd.",
+  'The work centers on performance optimization, API management, and cloud-integrated backend solutions: taking a system apart, finding where it slows down or breaks under real traffic, and shipping something faster, safer or easier to maintain — with results including 30% fewer build failures and 35% faster validation.',
 ];
 
 export const aboutFacts = [
-  { label: 'Location', value: 'Kolkata, India' },
-  { label: 'Focus', value: 'Java · Spring Boot · REST APIs' },
-  { label: 'Currently', value: 'Freelance Java Developer' },
+  { label: 'Location', value: 'Bengaluru, India' },
+  { label: 'Focus', value: 'Java · Spring Boot · Microservices · Kafka · AWS' },
+  { label: 'Latest role', value: 'Java Developer · Scanner Interior' },
 ];
 
 export const archNodes = [
@@ -82,7 +83,7 @@ export const capabilityTags = [
 
 export const jobs = [
   {
-    title: 'Java Developer · Freelancing',
+    title: 'Java Developer · Scanner Interior Pvt Ltd',
     meta: 'Jun 2024 – Jun 2026 · Kolkata, India (Remote)',
     bullets: [
       'Refactored legacy codebases to enhance maintainability and system stability, reducing build failures by 30% and improving developer productivity.',
@@ -114,9 +115,45 @@ export const credentials = [
   },
   {
     type: 'Certification',
+    title: 'Career Essentials in GitHub Copilot',
+    sub: 'Professional Certificate · GitHub',
+    detail: 'Issued Sep 2026',
+  },
+  {
+    type: 'Certification',
+    title: 'Docker Foundations',
+    sub: 'Professional Certificate · Docker, Inc',
+    detail: 'Issued Sep 2026',
+  },
+  {
+    type: 'Certification',
+    title: 'Microsoft Azure Essentials',
+    sub: 'Professional Certificate · Microsoft and LinkedIn',
+    detail: 'Issued Sep 2026',
+  },
+  {
+    type: 'Certification',
     title: 'Redis Certified',
-    sub: 'Associate Software Operator',
-    detail: null,
+    sub: 'Associate Software Operator · Redis',
+    detail: 'Issued Aug 2026',
+  },
+  {
+    type: 'Certification',
+    title: 'Ubuntu Linux',
+    sub: 'Professional Certificate · Canonical',
+    detail: 'Issued Oct 2026',
+  },
+  {
+    type: 'Certification',
+    title: 'Generative AI',
+    sub: 'Professional Certificate · Snowflake',
+    detail: 'Issued Oct 2026',
+  },
+  {
+    type: 'Certification',
+    title: 'Java Foundations',
+    sub: 'Professional Certificate · JetBrains',
+    detail: 'Issued Oct 2026',
   },
   {
     type: 'Achievement',
@@ -167,28 +204,28 @@ export const pipelineSteps = [
 export const completedProjects = [
   {
     title: 'LLM-Based Client Requirements Chatbot',
-    context: 'Freelance',
+    context: 'Scanner Interior',
     description:
       'Helped build an LLM-powered chatbot that automates gathering and triaging client requirements and queries.',
     tags: ['GenAI', 'LLM', 'Chatbot'],
   },
   {
     title: 'Online Skill Assessment Platform',
-    context: 'Freelance',
+    context: 'Scanner Interior',
     description:
       'Contributed backend work supporting automated technical tests, candidate evaluation, and analytics dashboards.',
     tags: ['REST APIs', 'Analytics', 'Assessment Engine'],
   },
   {
     title: 'Enterprise Backends for Marketing & Corporate Platforms',
-    context: 'Freelance',
+    context: 'Scanner Interior',
     description:
       'Designed and developed backend systems powering marketing and corporate-facing platforms.',
     tags: ['Java', 'Spring Boot', 'APIs'],
   },
   {
     title: 'Legacy Codebase Modernization',
-    context: 'Freelance',
+    context: 'Scanner Interior',
     description:
       'Refactored legacy codebases for maintainability and stability, cutting build failures by 30% and adding automated test coverage that reduced production issues.',
     tags: ['Refactoring', 'Testing', 'CI/CD'],
@@ -218,28 +255,37 @@ export const currentProjects = [
 ];
 
 export const skillCategories = [
-  { label: 'Programming Languages', items: ['Core Java', 'Python'] },
+  { label: 'Languages', items: ['Core Java', 'Python'] },
+  {
+    label: 'Frameworks & Back-end',
+    items: [
+      'Spring Framework',
+      'Spring Boot',
+      'Spring Security',
+      'Hibernate',
+      'RESTful APIs',
+      'Microservices',
+      'JWT',
+      'Encryption',
+    ],
+  },
   {
     label: 'Architecture & Design',
-    items: ['OOP', 'SOLID Principles', 'Data Structures & Algorithms', 'Design Patterns'],
+    items: ['OOPs', 'SOLID Principles', 'Data Structures & Algorithms', 'Design Patterns'],
   },
-  { label: 'Frameworks', items: ['Spring Framework', 'Spring Boot', 'Spring Security'] },
-  { label: 'Database', items: ['SQL', 'JDBC', 'Redis', 'H2'] },
-  { label: 'Cloud', items: ['AWS', 'GCP', 'Azure'] },
+  { label: 'Databases', items: ['SQL', 'JDBC', 'Redis', 'H2'] },
   {
-    label: 'Back-end Technologies',
-    items: ['JDBC', 'RESTful APIs', 'Microservices', 'Hibernate', 'Encryption', 'JWT'],
+    label: 'Messaging & Integration',
+    items: ['Apache Kafka', 'SoftwareAG webMethods', 'Apigee'],
   },
-  { label: 'Front-end Technologies', items: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'JavaScript'] },
+  {
+    label: 'Cloud & DevOps',
+    items: ['AWS', 'GCP', 'Azure', 'Docker', 'Git', 'GitHub Actions', 'Jenkins', 'CI/CD Pipeline'],
+  },
+  { label: 'AI & GenAI', items: ['RAG', 'Ollama', 'Claude Code', 'GitHub Copilot'] },
   { label: 'Testing', items: ['JUnit', 'Selenium'] },
-  { label: 'Workflow Methods', items: ['Agile', 'Scrum', 'Waterfall'] },
-  { label: 'Integration & API Management', items: ['SoftwareAG webMethods', 'Apigee'] },
-  { label: 'AI Agents', items: ['RAG', 'Ollama', 'Claude Code', 'GitHub Copilot'] },
-  { label: 'Messaging Platform', items: ['Apache Kafka'] },
-  {
-    label: 'DevOps & Version Control',
-    items: ['Git', 'Docker', 'GitHub Actions', 'Jenkins', 'CI/CD Pipeline'],
-  },
+  { label: 'Front-end', items: ['React.js', 'Bootstrap', 'HTML', 'CSS', 'JavaScript'] },
+  { label: 'Methodologies', items: ['Agile', 'Scrum', 'Waterfall'] },
 ];
 
 export const skills = [

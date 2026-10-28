@@ -74,9 +74,9 @@ export default function SystemSection() {
           <Reveal className="card">
             <h3>What I bring to the backend layer</h3>
             <p className="muted">
-              Enterprise delivery at Cognizant plus independent software work gives the portfolio
-              two complementary signals: structured business-system engineering and hands-on
-              product implementation.
+              Enterprise delivery at Cognizant plus remote freelance work with Scanner Interior
+              gives the portfolio two complementary signals: structured business-system
+              engineering and hands-on product implementation.
             </p>
             <div className="tags">
               {capabilityTags.map((tag) => (
@@ -86,8 +86,10 @@ export default function SystemSection() {
               ))}
             </div>
             <div style={{ marginTop: 22 }}>
-              <div className="kicker">Current profile</div>
-              <div style={{ fontSize: 14, marginTop: 6 }}>Freelancer · Remote · Apr 2024–Present</div>
+              <div className="kicker">Latest role</div>
+              <div style={{ fontSize: 14, marginTop: 6 }}>
+                Java Developer · Scanner Interior · Remote · Jun 2024–Jun 2026
+              </div>
             </div>
           </Reveal>
         </div>

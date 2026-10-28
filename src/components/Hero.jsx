@@ -34,7 +34,7 @@ export default function Hero() {
           <p className="lede">
             I&rsquo;m Arbaj Ali — a backend-focused software engineer working across Java, Python,
             Spring Boot, RESTful APIs, microservices, cloud platforms and GenAI tooling, with
-            about four years split between enterprise delivery at Cognizant and freelance work.
+            four years split between enterprise delivery at Cognizant and remote freelance work.
           </p>
           <div className="actions">
             <a className="btn primary" href="#completed-projects">

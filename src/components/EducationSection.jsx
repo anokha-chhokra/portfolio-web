@@ -10,7 +10,7 @@ export default function EducationSection() {
             <div className="kicker">04 / education &amp; achievements</div>
             <h2>Grounded in fundamentals, tested outside the classroom.</h2>
           </div>
-          <p>Education, certification and a few memorable engineering achievements from the resume.</p>
+          <p>Education, professional certifications and a few memorable engineering achievements.</p>
         </Reveal>
 
         <Reveal as="div" className="creds-grid">
